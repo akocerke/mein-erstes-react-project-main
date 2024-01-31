@@ -1,0 +1,44 @@
+/* src/App.css */
+@font-face {
+  font-family: 'Namecat';
+  src: url("../fonts/Namecat.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Skincake';
+  src: url("../fonts/Skincake.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'BebasNeue-Regular';
+  src: url("../fonts/BebasNeue-Regular.otf") format('opentype');
+}
+
+:root {
+  --background-color: linear-gradient(#800020, #000000);
+  --secondary-color: #800020;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'BebasNeue-Regular';
+  background: var(--secondary-color);
+  background-image: var(--background-color);
+  color: #ffffff;
+  min-height: 100vh; /* Mindesthöhe des gesamten Viewports */
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+}
+
+section {
+  padding: 20px;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+
+
+
+
+
