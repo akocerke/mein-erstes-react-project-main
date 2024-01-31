@@ -40,3 +40,18 @@
   font-family: 'Skincake';
   font-size: 1em;
 }
+
+
+/* @media-Abfrage für kleinere Bildschirme */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column; /* Ändert die Richtung zu vertikal */
+    align-items: center; /* Zentriert die Elemente */
+    padding: 10px; /* Optional: Kleinere Padding für kleinere Bildschirme */
+  }
+
+  .navbar li {
+    margin-right: 0; /* Entfernt den rechten Rand für die Listenelemente */
+    margin-bottom: 10px; /* Fügt Platz zwischen den Listenelementen hinzu */
+  }
+}
