@@ -35,6 +35,9 @@ section {
   padding: 20px;
   height: 100vh;
   margin-top: 100px;
+  margin-bottom: 100px;
+  overflow: hidden; /* oder overflow: auto; */
+  height: auto;
 }
 
 
