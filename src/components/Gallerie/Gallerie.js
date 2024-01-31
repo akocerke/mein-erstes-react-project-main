@@ -80,7 +80,8 @@ const Gallery = () => {
       <div className={styles.gallerie}>
         {images.map((imageUrl, index) => (
           <div key={index} className={styles['image-container']}>
-            <img src={imageUrl} alt={`Image ${index + 1}`} />
+            <img src={imageUrl} alt={`Bild ${index + 1}`} />
+
           </div>
         ))}
       </div>

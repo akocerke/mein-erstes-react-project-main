@@ -52,6 +52,7 @@
 
   .navbar li {
     margin-right: 0; /* Entfernt den rechten Rand für die Listenelemente */
-    margin-bottom: 10px; /* Fügt Platz zwischen den Listenelementen hinzu */
+    margin-bottom: 2px; /* Fügt Platz zwischen den Listenelementen hinzu */
   }
+ 
 }
