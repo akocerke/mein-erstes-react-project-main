@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Gallerie.module.css';
+import { faker } from '@faker-js/faker';
 
 const Gallery = () => {
   const [loading, setLoading] = useState(true);
@@ -23,34 +24,50 @@ const Gallery = () => {
     // JSON-Daten mit Bild-URLs (Beispiel)
     const jsonData = {
       images: [
-        '/img/1.png',
-        '/img/2.png',
-        '/img/6.png',
-        '/img/4.png',
-        '/img/5.png',
-        '/img/6.png',
-        '/img/1.jpg',
-        '/img/2.jpg',
-        '/img/3.jpg',
-        '/img/1.png',
-        '/img/2.png',
-        '/img/6.png',
-        '/img/4.png',
-        '/img/5.png',
-        '/img/6.png',
-        '/img/1.jpg',
-        '/img/2.jpg',
-        '/img/3.jpg',
-        '/img/1.png',
-        '/img/2.png',
-        '/img/6.png',
-        '/img/4.png',
-        '/img/5.png',
-        '/img/6.png',
-        '/img/1.jpg',
-        '/img/2.jpg',
-        '/img/3.jpg',
-        '/img/1.png'
+        faker.image.nature(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.nature(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.sports(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.nature(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.food(360, 360, true),
+        faker.image.food(360, 360, true),
+        faker.image.food(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.nature(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.nature(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.nightlife(360, 360, true),
+        faker.image.nightlife(360, 360, true),
+        faker.image.sports(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.nature(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.nature(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.sports(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.nature(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.food(360, 360, true),
+        faker.image.food(360, 360, true),
+        faker.image.food(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.nature(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.nature(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.nightlife(360, 360, true),
+        faker.image.nightlife(360, 360, true),
+        faker.image.sports(360, 360, true),
+        faker.image.animals(360, 360, true),
+        faker.image.nature(360, 360, true),
+        faker.image.animals(360, 360, true)
+        
+
         // ... weitere Bild-URLs
       ]
     };
