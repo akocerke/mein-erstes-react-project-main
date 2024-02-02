@@ -1,14 +1,16 @@
 // userData.js
 
-const userData = {
-    username: 'CooleSau',
-    profileImage: '../../img/profilbild.png',
-    posts: 5711,
-    followers: 1175,
-    following: 20000,
-    bio: 'Abenteurer des Coolen 🕶️ Königin des Stils 👑  Chill-Meisterin 🍦  Trendsetter und Lebensgenießer 🌟  Immer auf der Suche nach dem nächsten Coolness-Level 🚀  Mode, Musik und Magie 💫  Living the cool life one day at a time. 😎✌️',
-        
+import { fakerDE as faker } from '@faker-js/faker';
+
+const generateRandomUserData = () => {
+  return {
+    username: faker.internet.userName(),
+    profileImage: faker.image.avatar(),
+    posts: faker.number.int({ min: 1, max: 500 }),
+    followers: faker.number.int({ min: 1, max: 10000 }),
+    following: faker.number.int({ min: 1, max: 700 }),
+    bio: faker.lorem.sentences(),
   };
-  
-  export default userData;
-  
+};
+
+export default generateRandomUserData;

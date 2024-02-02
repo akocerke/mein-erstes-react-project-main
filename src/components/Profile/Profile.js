@@ -3,9 +3,11 @@
 import React from 'react';
 import styles from './Profile.module.css'; // Importiere das CSS-Modul Profile
 import Button from '../Button/Button'; // Importiere die Button-Komponente
+import generateRandomUserData from './userData'; // Importiere RandomUser aus userData
 
 const Profile = (props) => {
-  const { username, profileImage, posts, followers, following, bio } = props;
+  const { username, profileImage, posts, followers, following, bio } = generateRandomUserData();
+
 
   return (
     <div className={styles.flexbox}>
@@ -24,9 +26,9 @@ const Profile = (props) => {
             <Button label="..." onClick={() => console.log('Weitere Aktionen Button wurde geklickt')} />
           </div>
           <div className={styles['profil-stats']}>
-            <label className={styles.stats}>{posts} Beiträge</label>
-            <label className={styles.stats}>{followers} Follower</label>
-            <label className={styles.stats}>{following} gefolgt</label>
+            <label className={styles.stats}><strong style={{ fontWeight: 900 }}>{posts}</strong> Beiträge</label>
+            <label className={styles.stats}><strong>{followers}</strong> Follower</label>
+            <label className={styles.stats}><strong>{following}</strong> gefolgt</label>
           </div>
           <div className={styles['profil-bio']}>
             <p>{bio}</p>
