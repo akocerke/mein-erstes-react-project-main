@@ -1,5 +1,6 @@
 // LogIn.js
 import React from 'react';
+import styles from './Login.module.css';
 
 function LogIn() {
   const onSubmitForm = (event) => {
@@ -9,8 +10,8 @@ function LogIn() {
   };
 
   return (
-    <div className="anmelden">
-      <div className="form">
+    <div className={styles['anmelden']}>
+      <div className={styles['form']}>
         <h1>Anmelden</h1>
         <form onSubmit={onSubmitForm}>
           <label htmlFor="email">E-Mail:</label>
@@ -19,7 +20,7 @@ function LogIn() {
           <label htmlFor="password">Passwort:</label>
           <input type="password" id="password" name="password" required />
 
-          <input className="submit" type="submit" value="Anmelden" />
+          <input className={styles['submit']} type="submit" value="Anmelden" />
         </form>
       </div>
     </div>

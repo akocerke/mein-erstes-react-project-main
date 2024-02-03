@@ -1,16 +1,17 @@
 // Navigation.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navigationbar.css';
 
 function Navigation() {
   return (
     <nav className='navbar'>
       <ul>
-        <li><a className='logo' href="/">GrinsGram</a></li>
+        <li><Link className='logo' to="/">GrinsGram</Link></li>
       </ul>
       <ul>
-        <li><a href="/">Anmelden</a></li>
-        <li><a href="/">Registrieren</a></li>
+        <li><Link to="/login">Anmelden</Link></li>
+        <li><Link to="/signup">Registrieren</Link></li>
       </ul>
     </nav>
   );

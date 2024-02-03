@@ -46,26 +46,8 @@ const Gallery = () => {
         faker.image.animals(360, 360, true),
         faker.image.nature(360, 360, true),
         faker.image.animals(360, 360, true),
-        faker.image.nature(360, 360, true),
         faker.image.animals(360, 360, true),
-        faker.image.sports(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.nature(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.food(360, 360, true),
-        faker.image.food(360, 360, true),
-        faker.image.food(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.nature(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.nature(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.nightlife(360, 360, true),
-        faker.image.nightlife(360, 360, true),
-        faker.image.sports(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.nature(360, 360, true),
-        faker.image.animals(360, 360, true)
+        faker.image.food(360, 360, true)
         
 
         // ... weitere Bild-URLs

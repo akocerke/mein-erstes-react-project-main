@@ -1,5 +1,6 @@
 // SignUp.js
 import React from 'react';
+import styles from './SignUp.module.css';
 
 function SignUp() {
   const onSignUpForm = (event) => {
@@ -9,8 +10,8 @@ function SignUp() {
   };
 
   return (
-    <div className="registrieren">
-      <div className="form">
+    <div className={styles['registrieren']}>
+      <div className={styles['form']}>
         <h1>Registrieren</h1>
         <form onSubmit={onSignUpForm}>
           <label htmlFor="name">Name:</label>
@@ -22,7 +23,7 @@ function SignUp() {
           <label htmlFor="password">Passwort:</label>
           <input type="password" id="password" name="password" required />
 
-          <input className="submit" type="submit" value="Registrieren" />
+          <input className={styles['submit']} type="submit" value="Registrieren" />
         </form>
       </div>
     </div>

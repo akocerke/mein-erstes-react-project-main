@@ -1,0 +1,43 @@
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.registrieren{
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Änderung zu flex-direction: column; */
+    align-items: center;
+    color: #ffffff;
+}
+.registrieren h1 {
+    margin-bottom: 50px; /* Platzierung zwischen dem Titel und dem Formular hinzufügen */
+}
+
+.submit {
+    padding: 10px 15px;
+    color: #290911;
+    background-color: #cca34a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+}
+
+.submit:hover{
+    background-color: #66ca3f;
+    color: #ffffff;
+}
