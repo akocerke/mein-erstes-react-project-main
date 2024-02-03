@@ -15,9 +15,6 @@ Die Anwendung besteht aus folgenden Teilen:
 - HTML
 - CSS
 
-## Starten der Anwendung
-Führe `npm start` aus und öffne [http://localhost:3000/](http://localhost:3000/) im Browser.
-
 ## Ordnerstruktur
 - `src/`
   - `components/`: Enthält wiederverwendbare React-Komponenten.
