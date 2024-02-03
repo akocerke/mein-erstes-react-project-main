@@ -28,7 +28,7 @@ const Profile = (props) => {
           <div className={styles['profil-stats']}>
             <label className={styles.stats}><strong style={{ fontWeight: 900 }}>{posts}</strong> Beiträge</label>
             <label className={styles.stats}><strong>{followers}</strong> Follower</label>
-            <label className={styles.stats}><strong>{following}</strong> gefolgt</label>
+            <label className={styles.stats}><strong>{following}</strong> Folgt</label>
           </div>
           <div className={styles['profil-bio']}>
             <p>{bio}</p>

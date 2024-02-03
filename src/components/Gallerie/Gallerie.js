@@ -24,30 +24,23 @@ const Gallery = () => {
     // JSON-Daten mit Bild-URLs (Beispiel)
     const jsonData = {
       images: [
-        faker.image.nature(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.nature(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.sports(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.nature(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.food(360, 360, true),
-        faker.image.food(360, 360, true),
-        faker.image.food(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.nature(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.nature(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.nightlife(360, 360, true),
-        faker.image.nightlife(360, 360, true),
-        faker.image.sports(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.nature(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.animals(360, 360, true),
-        faker.image.food(360, 360, true)
+        faker.image.urlLoremFlickr({category:"nature"}),
+        faker.image.urlLoremFlickr({category:"dogs"}),
+        faker.image.urlLoremFlickr({category:"cats"}),
+        faker.image.urlLoremFlickr({category:"nature"}),
+        faker.image.urlLoremFlickr({category:"food"}),
+        faker.image.urlLoremFlickr({category:"nightlife"}),
+        faker.image.urlLoremFlickr({category:"sports"}),
+        faker.image.urlLoremFlickr({category:"horse"}),
+        faker.image.urlLoremFlickr({category:"nature"}),
+        faker.image.urlLoremFlickr({category:"dogs"}),
+        faker.image.urlLoremFlickr({category:"cats"}),
+        faker.image.urlLoremFlickr({category:"nature"}),
+        faker.image.urlLoremFlickr({category:"food"}),
+        faker.image.urlLoremFlickr({category:"nightlife"}),
+        faker.image.urlLoremFlickr({category:"rabbit"}),
+        faker.image.urlLoremFlickr({category:"horse"})
+        
         
 
         // ... weitere Bild-URLs

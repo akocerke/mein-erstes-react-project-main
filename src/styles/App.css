@@ -38,7 +38,6 @@ body {
   margin-bottom: 50px;
   overflow: hidden; /* oder overflow: auto; */
   height: auto;
-  max-width: 95%;
   justify-content: center;
 }
 
