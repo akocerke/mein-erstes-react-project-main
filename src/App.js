@@ -5,7 +5,6 @@ import Navigation from './components/Navigation/Navigationbar';
 import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
-
 import LogIn from './components/Login/LogIn'; 
 import SignUp from './components/Signup/SignUp'; 
 
